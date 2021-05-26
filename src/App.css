@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.mainContainer {
+  font-size: medium;
+}
+
+.mainContainer h1 {
+  display: flex;
+  color: #6f6969;
+  margin-left: 20px;
+}
+
+.mainContainer h3, h5 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.inputBox {
+  margin-top: 26px;
+  padding-left: 20px;
+  float:left;
+}
+
+.inputBox input {
+  padding: 10px;
+  font-size: 15px;
+  border: 3px solid red;
+  border-radius: 7px;
+}
+
+.inputBox button {
+  padding: 8px;
+  margin-left: 11px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 3px solid blue;
+  border-radius: 7px;
+  background-color: blue;
+  color: #fff;
+}
+
+.stockGraph {
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.stockGraph h1 {
+  color: orange;
+}
+
+.stockGraph canvas {
+  background: #dbe9fd;  
+}
